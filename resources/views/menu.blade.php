@@ -7,12 +7,12 @@
         <h4>Registro de Guía de Remisión</h4>
         <form action="post">
             @csrf
-
+                    
             <div class="d-flex mb-3">
                 <div class="input-group">
                     <input type="text" class="form-control pr-2" id="" placeholder="RUC">
                     <div class="input-group-append">
-                        <button type="submit" style="background-color:#001F4B; color:white; border: solid 2px  #001F4B;border-radius:0 6px 6px 0 " ><i class="fas fa-search"></i> Consultar</button>
+                        <button type="submit" style="background-color:#0003A3; color:white; border: solid 2px  #0003A3;border-radius:0 6px 6px 0 " ><i class="fas fa-search"></i> Consultar</button>
                     </div>
                 </div>
                 <div class="mr-4"></div>
@@ -23,14 +23,14 @@
                     <input type="text" class="form-control" id="" placeholder="Razon Social">
                 </div>
             </div>
-
+        
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
                 </div>
                 <input type="text" class="form-control" id="" placeholder="Direccion">
             </div>
-
+        
             <div class="d-flex mb-3">
                 <div class="input-group">
                     <div class="input-group-prepend">
@@ -46,7 +46,36 @@
                     <input type="text" class="form-control" id="" placeholder="N° de Viaje">
                 </div>
             </div>
+            <div class="d-flex mb-3">
+                
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-tree"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="" placeholder="Campo ID">
+                </div>
 
+            </div>
+            <div class="d-flex mb-3">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-shipping-fast"></i>
+                        </span>
+                    </div>
+                    <input type="number" class="form-control" id="" placeholder="Transportista ID">
+                </div>
+                <div class="mr-4"></div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-credit-card"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" id="" placeholder="Pago ID">
+                </div>
+
+            </div>
+        
             <div class="text-center mb-3" >
                 <button type="submit"  style="background-color:#1CA6D4; color:white; border: solid 2px  #1CA6D4;border-radius:5px 5px 5px 5px;height:40px;width:12% " > GUARDAR  <i class="fas fa-save"></i></button>
             </div>
